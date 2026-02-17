@@ -1,0 +1,16 @@
+# Environment variables
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Uploaded files
+backend/uploaded_files/
+
+# Node
+node_modules/
+
+# Mac
+.DS_Store
