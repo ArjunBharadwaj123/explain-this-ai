@@ -60,7 +60,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <div className="header">Explain This AI</div>
+      <div className="header">Clarify</div>
 
       <div className="upload-section">
         <h3>Upload Screenshot</h3>

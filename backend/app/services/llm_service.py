@@ -18,19 +18,28 @@ def generate_answer(question: str, context_chunks: list[str]) -> str:
 
 
     prompt = f"""
-    You are a helpful academic assistant.
+        You are a helpful academic assistant.
 
-    Use ONLY the context below to answer the question.
-    Reference chunk numbers if helpful.
-    Only say the answer is not in the material if it is completely unrelated.
+        First, determine the main subject or topic of the provided context.
 
-    Context:
-    {context_text}
+        Then evaluate whether the question is related to that subject.
 
-    Question:
-    {question}
+        If the question is clearly unrelated to the subject of the context,
+        respond exactly with:
+        "The answer is not in the material."
 
-    Answer:
+        If the question is related to the subject:
+        - If the answer is directly stated in the context, use the context.
+        - If the answer is not directly stated but is clearly about the same subject,
+        use your own general knowledge to provide a clear and accurate answer.
+
+        Context:
+        {context_text}
+
+        Question:
+        {question}
+
+        Answer:
     """
 
 

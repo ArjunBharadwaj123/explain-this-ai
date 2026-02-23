@@ -25,4 +25,4 @@ app.include_router(chat.router)
 
 @app.get("/")
 def root():
-    return {"message": "Explain This AI Backend Running"}
+    return {"message": "Clarify Backend Running"}

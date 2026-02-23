@@ -1,6 +1,6 @@
-# Explain-This-AI
+# Clarify
 
-Explain-This-AI is an AI-powered learning assistant that extracts text from images using OCR, retrieves the most relevant context using vector embeddings (RAG), and generates clear explanations using a large language model.
+Clarify is an AI-powered learning assistant that extracts text from images using OCR, retrieves the most relevant context using vector embeddings (RAG), and generates clear explanations using a large language model.
 
 The goal is to help students better understand AI/ML slides, diagrams, and notes by turning visual content into grounded, structured explanations.
 
@@ -61,7 +61,7 @@ Structured Explanation + Sources
 ## 📂 Project Structure
 
 ```
-explain-this-ai/
+clarify/
 │
 ├── backend/
 │   ├── app/
@@ -87,8 +87,8 @@ explain-this-ai/
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/explain-this-ai.git
-cd explain-this-ai
+git clone https://github.com/YOUR_USERNAME/clarify.git
+cd clarify
 ```
 
 ---
